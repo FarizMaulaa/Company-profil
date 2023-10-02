@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&family=Roboto+Condensed:wght@700&display=swap");
+.iconame {
+  font-family: "Fjalla One", sans-serif;
+}
