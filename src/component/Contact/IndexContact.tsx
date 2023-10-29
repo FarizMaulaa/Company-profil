@@ -1,14 +1,16 @@
 import Contact from "./Contact";
-import Massage from "./Massage";
+import ContactUs from "./ContactUs";
 
 const IndexContact = () => {
   return (
-    <div className="">
-      <div>
-        <Contact />
-      </div>
-      <div>
-        <Massage />
+    <div className="sm:mx-10">
+      <div className="sm:grid sm:grid-cols-2 sm:gap-72">
+        <div>
+          <Contact />
+        </div>
+        <div className="items-center">
+          <ContactUs />
+        </div>
       </div>
     </div>
   );

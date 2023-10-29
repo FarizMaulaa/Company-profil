@@ -25,7 +25,7 @@ const SetSosmed = (props: any) => {
 const Contact = () => {
   return (
     <div className="m-2 sm:">
-      <h1 className="text-3xl text-center font-bold text-blue-800">
+      <h1 className="text-3xl text-center font-bold text-blue-800 ">
         Cantact Us
       </h1>
       <p className="font-normal text-lg mt-2 mb-2">
